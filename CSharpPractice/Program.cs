@@ -10,6 +10,23 @@ namespace CSharpPractice
     {
         static void Main(string[] args)
         {
+            // This is a comment.
+            /* This a multi-line comment. */
+
+            Console.WriteLine("Hello World!");
+            String name = Console.ReadLine();
+            Console.WriteLine("Hello, " + name);
+            bool vote = false;
+            char money = '$';
+
+            if (money == '$')
+            {
+                vote = true;
+            }
+
+            // Var becomes a type at compile, but does not allow change after that. 
+            var ram = "ramMan";
+
         }
     }
 }
