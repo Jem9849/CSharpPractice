@@ -51,6 +51,16 @@ namespace CSharpPractice
 
             Random rand = new Random();
             Console.WriteLine("Random number between 1 to 10 - " + (rand.Next(1, 11)));
+
+            String[] cat = { "feline", "kitty", "cat" };
+
+            for (int i = 0; i < cat.Length; i++)
+            {
+                if (cat[i] == "kitty")
+                {
+                    Console.WriteLine("This is a kitty.");
+                }
+            }
         }
     }
 }
