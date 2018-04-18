@@ -24,8 +24,10 @@ namespace CSharpPractice
                 vote = true;
             }
 
-            // Var becomes a type at compile, but does not allow change after that. 
+            // Var becomes a type at compile, but does not allow value change after that. 
             var ram = "ramMan";
+
+            Console.WriteLine(ram);
 
         }
     }
