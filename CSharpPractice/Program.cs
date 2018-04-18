@@ -48,6 +48,9 @@ namespace CSharpPractice
             // Math.Pow gives the power of a number. 
             // Math.Round rounds the number.
             // Math.Sqrt gets the square root of the number.
+
+            Random rand = new Random();
+            Console.WriteLine("Random number between 1 to 10 - " + (rand.Next(1, 11)));
         }
     }
 }
