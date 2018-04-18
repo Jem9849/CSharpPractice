@@ -24,6 +24,11 @@ namespace CSharpPractice
                 vote = true;
             }
 
+            if (vote == true)
+            {
+                Console.WriteLine("Vote equals true.");
+            }
+
             // Var becomes a type at compile, but does not allow value change after that. 
             var ram = "ramMan";
 
