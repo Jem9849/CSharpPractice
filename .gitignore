@@ -1,0 +1,14 @@
+bin/ 
+*.class 
+.DS_Store
+Thumbs.db
+CSharpPractice/CSharpPractice.csproj
+.vs/CSharpPractice/v14/.suo
+CSharpPractice.sln
+CSharpPractice/App.config
+CSharpPractice/obj/Debug/CSharpPractice.csproj.FileListAbsolute.txt
+CSharpPractice/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+CSharpPractice/obj/Debug/TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs
+CSharpPractice/obj/Debug/TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs
+CSharpPractice/obj/Debug/TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs
+CSharpPractice/Properties/AssemblyInfo.cs
