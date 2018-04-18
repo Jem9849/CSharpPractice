@@ -29,6 +29,7 @@ namespace CSharpPractice
 
             Console.WriteLine(ram);
 
+            Console.WriteLine(ram + ", is a " + ram.GetTypeCode() + ".");
         }
     }
 }
