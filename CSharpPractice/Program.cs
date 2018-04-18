@@ -35,6 +35,19 @@ namespace CSharpPractice
             Console.WriteLine(ram);
 
             Console.WriteLine(ram + ", is a " + ram.GetTypeCode() + ".");
+
+            double fivePointFive = 5.5;
+
+            int five = (int)fivePointFive;
+
+            // Math.Abs gets absolute value.
+            // Math.Ceiling rounds up.
+            // Math.Floor rounds down.
+            // Math.Max sends largest from two numbers.
+            // Math.Min sends the lowest of two numbers.
+            // Math.Pow gives the power of a number. 
+            // Math.Round rounds the number.
+            // Math.Sqrt gets the square root of the number.
         }
     }
 }
